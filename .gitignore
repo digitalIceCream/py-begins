@@ -1,0 +1,6 @@
+# Ignore everything but '.gitignore', and '.py' files and subdirectories.
+
+*
+!*.gitignore
+!*.py
+!*/
