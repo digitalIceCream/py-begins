@@ -2,20 +2,16 @@
 
 """
 Author:			John-Philipp Vogt
-Date:			2022-08-04
+Date:			2022-08-05
 Synopsis:		A script illustrating error handling.
-Filename:		p1ch3.8.py
-"""
-"""
-def spam(divideBy):
-    return 42/divideBy
+Filename:		tryToZeroDivide.py
 """
 
 def spam(divideBy):
     try:
-        return 42/divideBy
+        return 42 / divideBy
     except ZeroDivisionError:
-        print('ERROR: Invalid argument')
+        print('Error: Invalid argument.')
 
 print(spam(2))
 print(spam(12))
@@ -23,12 +19,14 @@ print(spam(0))
 print(spam(1))
 
 """
+NB: Would also work by putting the function call into a try block like so:
+"""
+
 try:
     print(spam(2))
     print(spam(12))
     print(spam(0))
     print(spam(1))
 except ZeroDivisionError:
-    print('ERROR: Invalid argument')
-
-    
+    print('Invalid argument.')
+   

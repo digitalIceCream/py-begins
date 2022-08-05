@@ -2,9 +2,9 @@
 
 """
 Author:			John-Philipp Vogt
-Date:			2022-08-04
+Date:			2022-08-05
 Synopsis:		A short rock-paper-scissors game
-Filename:		p1ch2.2.py
+Filename:		rpsGame.py
 """
 
 import random,sys #importing libraries

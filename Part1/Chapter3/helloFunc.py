@@ -4,7 +4,7 @@
 Author:			John-Philipp Vogt
 Date:			2022-08-04
 Synopsis:		A script illustrating user-defined funcitons.
-Filename:		p1ch3.py
+Filename:		hellofunc.py
 """
 
 def hello():
@@ -14,9 +14,5 @@ def hello():
     print('Buen dia')
 
 hello()
-
-def hello(name):
-    print('Hello ' + name)
-
-hello('Bob')
-
+hello()
+hello()

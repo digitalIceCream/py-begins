@@ -2,9 +2,9 @@
 
 """
 Author:			John-Philipp Vogt
-Date:			2022-08-04
-Synopsis:		A short script defining a function and calling it.
-Filename:		p1ch3.2.py
+Date:			2022-08-05
+Synopsis:		A short script defining a function and calling it, using return values.
+Filename:		magic8Ball.py
 """
 
 import random
@@ -33,3 +33,4 @@ r = random.randint(1, 9)
 fortune = getAnswer(r)
 print(fortune)
 
+print(getAnswer(r))

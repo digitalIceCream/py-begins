@@ -2,9 +2,9 @@
 
 """
 Author:			John-Philipp Vogt
-Date:			2022-08-04
+Date:			2022-08-05
 Synopsis:		A simple guess-the-number game.
-Filename:		p1ch2.1.py
+Filename:		guessTheNumber.py
 """
 
 import random

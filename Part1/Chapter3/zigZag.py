@@ -4,7 +4,7 @@
 Author:			John-Philipp Vogt
 Date:			2022-08-04
 Synopsis:		A little animation script.
-Filename:		p1ch3.9.py
+Filename:		zigZag.py
 """
 
 import time, sys
@@ -32,5 +32,5 @@ try:
                 # Change direction again
                 indentIncreasing = True
 except KeyboardInterrupt:
-    sys.exti()
+    sys.exit()
 

@@ -4,7 +4,7 @@
 Author:			John-Philipp Vogt
 Date:			2022-08-04
 Synopsis:		A script illustrating global statements.
-Filename:		p1ch3.6.py
+Filename:		globalStatement.py
 """
 
 def spam():

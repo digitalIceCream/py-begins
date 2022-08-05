@@ -2,9 +2,9 @@
 
 """
 Author:			John-Philipp Vogt
-Date:			2022-08-04
+Date:			2022-08-05
 Synopsis:		A script tackling the issue of similar names of local and global variables.
-Filename:		p1ch3.5.py
+Filename:		localGlobalSameName.py
 """
 def spam():
     eggs = 'spam local'
