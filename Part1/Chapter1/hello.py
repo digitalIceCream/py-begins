@@ -2,7 +2,7 @@
 
 """
 Author:			John-Philipp Vogt
-Date:	        2022-08-04	
+Date:	      2022-08-04	
 Synopsis:		A simple script introduction basics of python3.
 Filename:		hello.py
 """
